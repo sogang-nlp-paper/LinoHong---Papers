@@ -12,3 +12,9 @@
 	Suggests CNN encoder which sums up the source sentence into a vector representation and sends it to the decoder(RCTM1)
 	finished at April, 4th.
 
+
+04.04 (Wed) : # Parsing Algorithm # Tomita's Parser
+============
+3.'An Efficient Augmented-Context-Free Parsing Algorithm', Masaru Tomita. 1987
+
+	Start reading to understand parsing algorithm taught from the NLP class in Sogang University.
