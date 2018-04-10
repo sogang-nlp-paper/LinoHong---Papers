@@ -19,6 +19,6 @@
 
 	Start reading to understand parsing algorithm taught from the NLP class in Sogang University.
 	
-4. 'An Efficient Context-Free Parsing Algorithm', Jay Earley (1970)
+4.'An Efficient Context-Free Parsing Algorithm', Jay Earley (1970)
 
 	start reading on 4/10
