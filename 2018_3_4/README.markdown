@@ -18,3 +18,7 @@
 3.'An Efficient Augmented-Context-Free Parsing Algorithm', Masaru Tomita. 1987
 
 	Start reading to understand parsing algorithm taught from the NLP class in Sogang University.
+	
+4. 'An Efficient Context-Free Parsing Algorithm', Jay Earley (1970)
+
+	start reading on 4/10
