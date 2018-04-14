@@ -22,3 +22,9 @@
 4.'An Efficient Context-Free Parsing Algorithm', Jay Earley (1970)
 
 	start reading on 4/10
+
+04.14 (Sat) : # Grid LSTM 
+============
+5.'GRID LONG SHORT-TERM MEMORY', Kalchbrenner et al. 2016
+
+	
