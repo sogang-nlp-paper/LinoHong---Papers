@@ -12,3 +12,13 @@
 1. 'Neural Machine Translation in Linear Time', Kalchbrenner et al. arXiv, 2017.
 2. 'Recurrent continuous translation models.', Kalchbrenner & Blunsom. EMNLP, 2013.
 	read both 05.18 - 05.23 
+
+06.01 - 06.05 : # Question Generation # Reading Comprehension # Summarization
+============
+
+1. 'Learning to Ask: Neural Question Generation for Reading Comprehension', Xinya Du et al. ACL, 2017.
+	- use Seq2Seq (Attention mechanism) to encode sentence and paragraph. Use both of the encoded information
+	  to decode, generating a question.
+	- data set of SQuAD. 
+2. 'Get To The Point: Summarization with Pointer-Generator Networks', Abigail See et al. ACL, 2017.
+	
