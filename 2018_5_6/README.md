@@ -21,4 +21,12 @@
 	  to decode, generating a question.
 	- data set of SQuAD. 
 2. 'Get To The Point: Summarization with Pointer-Generator Networks', Abigail See et al. ACL, 2017.
-	
+	- use seq2seq + attention to encode document into a representation.
+	- use pointer-generator network to decide probability of generation and copying. This mechanism solves
+	  UNK problem.
+	- use Coverage mechanism to cover already generated sentences. 
+	- analyses why extractive method scores higher ROUGE point than abstractive 
+		=> simple word matches from reference summarization.
+	- analyses what pointer-generator contributes to the summarization result
+		=> It increases ROUGE point, but less abstractive. 
+		=> future work
