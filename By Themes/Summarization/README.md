@@ -35,9 +35,17 @@ Summarization Theme
 		=> reduce the size of the soft-max layer, speeds up convergence by focusing the modeling effort only on the words that are essential to a given example.
 	- Feature-rich Encoder : concatenate TF, IDF, NER, POS features to the word-based embeddings as the representation. 
 	- Switch between Generator-Pointer : 
-		![alt text](./images/nallapati-pg-decisionProb.PNG) 
-		![alt text](./images/nallapati-pg-positionDist.PNG)
-		![alt text](./images/nallapati-pg-entireLikelihood.PNG)
+		<p align="center">
+  			<img src="./images/nallapati-pg-decisionProb.PNG">
+		</p>
+		
+		<p align="center">
+  			<img src="./images/nallapati-pg-positionDist.PNG">
+		</p>
+		
+		<p align="center">
+  			<img src="./images/nallapati-pg-entireLikelihood.PNG">
+		</p>
 	- Hierarchical Document structure with Hierarchical Attention 
 	
 5. 'Neural Summarization by Extracting Sentences and Words', Cheng et al. ACL 2016.
