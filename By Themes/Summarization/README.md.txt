@@ -25,7 +25,17 @@ Summarization Theme
 	- RNN version of Rush et al. 2015. 
 	
 4. 'Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond', Nallapati et al. SIGNLL conference on Computational Natural Language Learning, 2016.
-	read 07.05
+	read 07.05 - 07.09
+	- baseline model corresponds to the NMT model used in Bahdanau et al. 2014.
+		i) Encoder : bidirectional GRU-RNN
+		ii) Decoder : uni-directional GRU-RNN
+		iii) Attention over the source-hidden states and a soft-max layer over target vocab.
+	- LVT (Large Vocabulary Trick) : The decoder-vocab of each mini-batch is restricted to words in the source documents of that batch.
+	  + Most frequent words in the target dict. are added until the vocab reaches a fixed size. 
+		=> reduce the size of the soft-max layer, speeds up convergence by focusing the modeling effort only on the words that are essential to a given example.
+	- Feature-rich Encoder : concatenate TF, IDF, NER, POS features to the word-based embeddings as the representation. 
+	- Switch between Generator-Pointer : 
+	- Hierarchical Document structure with Hierarchical Attention 
 	
 5. 'Neural Summarization by Extracting Sentences and Words', Cheng et al. ACL 2016.
 	read 07.06
