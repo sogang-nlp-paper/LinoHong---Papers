@@ -49,5 +49,22 @@ Summarization Theme
 	- Hierarchical Document structure with Hierarchical Attention 
 	
 5. 'Neural Summarization by Extracting Sentences and Words', Cheng et al. ACL 2016.
-	read 07.06
+	read 07.06 - 07.10
+	- task of a document summarization into a single sentence.
+	- trained on DailyMail news.
+		+ for sentence extraction train data : label 1/0 for sentences that are included/not-included respectively.
+		+ for word extraction train data : 
+			* If every high-lighted words from the document, include them. 
+			* If OOV, find a sementically equivalent replacement present in the news article. 
+			* otherwise, discard the document-highlights pair.
+	- Model
+		+ comprised of Document Reader 
+			* Convolutional Sentence Encoder to encode each sentence of document, 
+			* then use each one of'em as input for the RNN representing a document. 
+		+ Sentence Extractor 
+			* labeler to predict if the sentence is included in the summary. 
+		+ Word Extractor
+			* Generating words that are part of the summary 
+			
+	
 	
