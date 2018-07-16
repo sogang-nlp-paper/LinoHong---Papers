@@ -66,5 +66,12 @@ Summarization Theme
 		+ Word Extractor
 			* Generating words that are part of the summary 
 			
-	
+6. <b>'Get To The Point : Summarization with Pointer-Generator Netoworks' </b><br>
+	read 07.14.
+	- task of a text summarization into summarized sentences.
+	- trained on CNN/DailyMail news.
+	- used Attention model as a baseline, a similar model to 'Nallapati et al. (2016)'
+	- added a pointer-generator network
+	- Coverage mechanism derived from Tu et al. 2016
+
 	
